@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp" class="no-js">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>cuy 2.0</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<script src="lib/socket.io-client/socket.io.js"></script>
+ 	<script src="lib/angularjs/angular.js"></script>  
+ 	<script src="lib/angular-socket-io/socket.js"></script>
+ 	<h1>HOLI</h1>
+  <section ng-controller="ArduController">
+      <label >
+        <input ng-click="ledOn()" type="checkbox" name="checkboxName" class="check"/>
+        <div class="switch"></div>
+      </label>
+      <label >
+        <input ng-click="ledOff()" type="checkbox" name="checkboxName" class="check"/>
+        <div class="switch"></div>
+      </label>
+    	<!--<button ng-click="ledOff()">Off</button>-->
+	</section>
+	
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+		<script src="js/boton.js"> </script>
+		<script src="js/javascript.js"></script>
+</body>
+</html>
