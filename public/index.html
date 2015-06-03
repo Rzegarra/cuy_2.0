@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html lang="en" ng-app="myApp" class="no-js">
 <head>
+
 	<meta charset="UTF-8">
+	<link href="http://fonts.googleapis.com/css?family=Amaranth:400,700italic" rel="stylesheet" type="text/css">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>cuy 2.0</title>
 	<link rel="stylesheet" href="style.css">
@@ -10,20 +12,29 @@
 	<script src="lib/socket.io-client/socket.io.js"></script>
  	<script src="lib/angularjs/angular.js"></script>  
  	<script src="lib/angular-socket-io/socket.js"></script>
- 	<h1>.</h1>
- 	<section>
- 		
- 	</section>
-  	<section ng-controller="ArduController" class="controls">
-  		<label for="">SALA</label>
-	    <div class="switch" ng-click="sala()" ></div>
-	    <label for="">CUARTO</label>
-    	<div class="switch" ng-click="cuarto()"></div>
-
+ 	
+ 	<header>
+ 		<h1>HOLI</h1>
+ 	</header>
+  	<section ng-controller="ArduController" class="iluminacion">
+  		<table >
+		    <tr>
+		      <td class="nombre">Sala</td>
+		      <td>
+		      	<div class="switch" ng-click="sala()" ></div>
+		      </td>
+		    </tr>
+		    <tr>
+		      <td class="nombre">Cuarto</td>
+		      <td>
+		      	<div class="switch" ng-click="cuarto()" ></div>
+		      </td>
+		    </tr>
+		</table>
     	<!--<button ng-click="ledOff()">Off</button>-->
 	</section>
 	<label class="prueba">
-		aqui iria lo que sea.
+		
 	</label>
 
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
