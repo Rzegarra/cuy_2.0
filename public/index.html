@@ -11,20 +11,19 @@
  	<script src="lib/angularjs/angular.js"></script>  
  	<script src="lib/angular-socket-io/socket.js"></script>
  	<h1>HOLI</h1>
-  <section ng-controller="ArduController">
-      <label >
-        <input ng-click="ledOn()" type="checkbox" name="checkboxName" class="check"/>
-        <div class="switch"></div>
-      </label>
-      <label >
-        <input ng-click="ledOff()" type="checkbox" name="checkboxName" class="check"/>
-        <div class="switch"></div>
-      </label>
+  	<section ng-controller="ArduController">
+	    <div class="switch" ng-click="sala()" ></div>
+    	<div class="switch" ng-click="cuarto()"></div>
+
     	<!--<button ng-click="ledOff()">Off</button>-->
 	</section>
-	
-		<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-		<script src="js/boton.js"> </script>
-		<script src="js/javascript.js"></script>
+	<label class="prueba">
+		aqui iria lo que sea.
+	</label>
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script src="js/boton.js"> </script>
+	<script src="js/javascript.js"></script>
+
 </body>
 </html>

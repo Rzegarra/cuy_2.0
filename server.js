@@ -6,6 +6,7 @@ var five = require("johnny-five");
 var io=require('socket.io')(httpServer);
 
 var port = 3000; 
+var temp=0;
 
 app.use(express.static(__dirname + '/public'));
 
@@ -24,22 +25,28 @@ var led;
     console.log('Arduino connected');
  //   led = new five.Led(13);
 //});
-
 //Socket connection handler
-io.on('connection', function (socket) { 
-console.log('JODER'); 
-        console.log(socket.id);
+io.on('connection', function (socket) {
+  console.log('FUNCION'); 
+  console.log(socket.id);
 
-        socket.on('led:on', function (data) {
-           //led.on();
-           console.log('LED ON RECEIVED');
-        });
+  socket.on('cuartoOn', function (data) {
+    //led.on();
+    console.log('CUARTO ON');
+  });
 
-        socket.on('led:off', function (data) {
-           // led.off();
-            console.log('LED OFF RECEIVED');
-
-        });
-    });
+  socket.on('cuartoOff', function (data) {
+    // led.off();
+    console.log('CUARTO OFF');
+  });
+  socket.on('salaOn', function (data) {
+    // led.off();
+    console.log('SALA On');
+  });
+  socket.on('salaOff', function (data) {
+    // led.off();
+    console.log('SALA OFF');
+  });
+});
 
 console.log('Waiting for connection');
