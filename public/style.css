@@ -4,16 +4,16 @@ body {
   background-color: #fff;
 }
 .nombre{
-	color: white;
-  	text-shadow: 0.1px 0.2px 0.5px black;
+	color: #222222;
+  	text-shadow: 0.1px 0.2px 0.5px white;
 	width: 120px;
 	padding-left: 30px;
-	  font-family: 'Amaranth', sans-serif;
+	font-family: 'Amaranth', sans-serif;
 	
 
 }
 .iluminacion{
-background: linear-gradient(to bottom, #52EDC7 0%, #5AC8FB 100%);	background-color: #f1f1f1;
+    background-color: #f1f1f1;
 	position: relative;
 	padding: 7px 35px;
 	margin-left: 50px;
@@ -73,7 +73,7 @@ background: linear-gradient(to bottom, #52EDC7 0%, #5AC8FB 100%);	background-col
 }
 .switchOn , .switchOn:before
 {
-background: #ff3300;
+background: #4cd964;
 }
 .switchOn:after
 {
