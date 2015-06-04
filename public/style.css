@@ -4,7 +4,7 @@ body {
   background-color: #fff;
 }
 .nombre{
-	color: #222222;
+	color: #555;
   	text-shadow: 0.1px 0.2px 0.5px white;
 	width: 120px;
 	padding-left: 30px;
@@ -73,7 +73,7 @@ body {
 }
 .switchOn , .switchOn:before
 {
-background: #4cd964;
+background: #4ECFFD;
 }
 .switchOn:after
 {
