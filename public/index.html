@@ -7,6 +7,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>cuy 2.0</title>
 	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="../dist/powerange.css" />
 </head>
 <body>
 	<script src="lib/socket.io-client/socket.io.js"></script>
@@ -14,8 +15,6 @@
  	<script src="lib/angular-socket-io/socket.js"></script>
  	
  	<header>
- 		<h2>control mobil</h2>
- 		<p><p></p></p>
  	</header>
   	<section ng-controller="ArduController" class="iluminacion">
   		<table >
@@ -31,13 +30,39 @@
 		      	<div class="switch" ng-click="cuarto()" ></div>
 		      </td>
 		    </tr>
+		    <tr>
+		      <td class="nombre">cocina</td>
+		      <td>
+		      	<div class="switch" ng-click="sala()" ></div>
+		      </td>
+		    </tr>
+		    <tr>
+		      <td class="nombre">lavanderia</td>
+		      <td>
+		      	<div class="switch" ng-click="sala()" ></div>
+		      </td>
+		    </tr>
+		    <tr>
+		      <td class="nombre">patio</td>
+		      <td>
+		      	<div class="switch" ng-click="sala()" ></div>
+		      </td>
+		    </tr>
 		</table>
     	<!--<button ng-click="ledOff()">Off</button>-->
 	</section>
 	<label class="prueba">
 		
 	</label>
+	<div class="slider-wrapper">
+            <input type="text" class="js-check-change" />
+            <label class="display-box-label">Value:</label>
+            <div id="js-display-change" class="display-box"></div>
+          </div>
+       
 
+	<script src="../dist/powerange.min.js"></script>
+	<script src="js/slider.js"></script>
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 	<script src="js/boton.js"> </script>
 	<script src="js/javascript.js"></script>
