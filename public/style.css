@@ -3,6 +3,10 @@ body {
   height: 100%;
   background-color: #fff;
 }
+.js-check-change{
+	border-color: black;
+	border-style: solid;
+}
 .nombre{
 	color: #555;
   	text-shadow: 0.1px 0.2px 0.5px white;
@@ -14,10 +18,10 @@ body {
 	
 
 }
-.iluminacion{
+.box{
     background-color: #f1f1f1;
 	position: relative;
-	margin-top: 60px;
+	margin-top: 10px;
 	padding: 10px 35px;
 	margin-left: 50px;
 	border-radius: 15px;

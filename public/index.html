@@ -16,9 +16,13 @@
  
  	
  	<header>
+ 		<div id="container" style="min-width: 300px; height: 200px; margin-rigth=30px "></div>
  	</header>
-  	<section ng-controller="ArduController" class="iluminacion">
+  	<section ng-controller="ArduController" class="box">
   		<table >
+  			<header>
+  				<h3>iluminacion</h3>
+  			</header>
 		    <tr>
 		      <td class="nombre">Sala</td>
 		      <td>
@@ -55,13 +59,19 @@
 	<label class="prueba">
 		
 	</label>
-
+<section class="box">
 	<div class="slider-wrapper">
-            <input type="text" class="js-check-change" />
-            <label class="display-box-label">Value:</label>
-            <div id="js-display-change" class="display-box"></div>
+            <input type="text" id="chan1" />
+            <div id="change1" class="display-box"></div>
      </div>
-     <div id="container" style="width: 500px; height: 200px; "></div>
+     <div class="slider-wrapper">
+            <input type="text" id="chan2" />
+            <div id="change2" class="display-box"></div>
+     </div>
+     
+     
+</section>
+	
    
 
 	<script src="../dist/powerange.min.js"></script>
