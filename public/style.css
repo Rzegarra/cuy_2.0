@@ -104,13 +104,12 @@ background: #017afd;
   margin: 50px 0 50px 20px;
   position: relative;
   width: 250px;
-  padding-top: 10px
 
 }
 
 
 .display-box {
-  background-color: #f7fcff;
+  background-color: white;
   border-radius: 5px;
   font-size: 0.8em;
   height: 23px;
