@@ -1,12 +1,9 @@
 body {
   width: 100%;
   height: 100%;
-  background-color: #fff;
+  background-color: #;
 }
-.js-check-change{
-	border-color: black;
-	border-style: solid;
-}
+
 .nombre{
 	color: #555;
   	text-shadow: 0.1px 0.2px 0.5px white;
@@ -19,20 +16,20 @@ body {
 
 }
 .box{
-    background-color: #f1f1f1;
+opacity: 0.6;	
 	display: inline-block;	
-
 	margin-top: 10px;
 	padding: 10px 35px;
 	margin-left: 50px;
 	border-radius: 15px;
 	width: 250px;
 	box-shadow: 1px 1px 3px black;
+  background-color: #f1f1f1;
 	
 }
-.boxslider{
 
-    background-color: #f1f1f1;
+.boxslider{
+  background-color: #f1f1f1;
 	position: absolute;
 	margin-top: 10px;
 	padding: 10px 35px;
@@ -101,7 +98,7 @@ background: #017afd;
 }
 
 .slider-wrapper {
-  margin: 50px 0 50px 20px;
+  margin: 40px 0 40px 20px;
   position: relative;
   width: 250px;
 
@@ -123,6 +120,3 @@ background: #017afd;
   -webkit-box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.15);
   box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.15);
 }
-
-
-

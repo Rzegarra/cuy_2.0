@@ -27,7 +27,7 @@ var led;
 //});
 //Socket connection handler
 io.on('connection', function (socket) {
-  console.log('FUNCION'); 
+  console.log('esperando eventos'); 
   console.log(socket.id);
 
   socket.on('cuartoOn', function (data) {

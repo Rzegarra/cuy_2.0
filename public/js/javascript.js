@@ -1,3 +1,4 @@
+
 var app = angular.module('myApp', ['btford.socket-io']).
     factory('mySocket', function (socketFactory) {
         return socketFactory();
